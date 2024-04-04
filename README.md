@@ -79,4 +79,4 @@ What is a sandwich attack, and how might it impact you when initiating a swap?
 >
 > 1. Victim sends a tx with the intention of swapping a token to another token with a MaxAmountIn or MinAmountOut parameter, indicating the tx's worst acceptable execution ptice.
 > 2. The attacker sees the tx in the mempool before it got confirmed, generates another tx that pushes the price up/down against the victim, and bribe the validators to include that transaction before the victim's tx.
-> 3. THe attacker then generates their second tx and proceeds to flush out the holdings they just got, netting profits.
+> 3. The attacker then generates their second tx and proceeds to flush out the holdings they just got, netting profits.
